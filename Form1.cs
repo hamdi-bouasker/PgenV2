@@ -97,7 +97,7 @@ namespace PgenV2
 
         private void NUDCharsInput_MouseDown(object sender, MouseEventArgs e)
         {
-            toolTip1.Show("Minimum is 12 and Maximum is 128", this.NUDCharsInput);
+            toolTip1.Show("Minimum is 16 and Maximum is 128", this.NUDCharsInput);
         }
 
         private void NUDNumInput_MouseDown(object sender, MouseEventArgs e)
