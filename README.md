@@ -1,7 +1,7 @@
 # PgenV2
 
-Secure password generator coded with C# and Windows Forms and it uses Membership.GeneratePassword(Int32, Int32) Method of System.Web assembly.
+Secure password generator coded with C# and Windows Forms and it uses **_Membership.GeneratePassword(Int32, Int32)_** Method of **_System.Web assembly_**.
 
 This method guarantees that the gnerated passwords are always unique.
 
-This method uses the following special characters !@#$%^&*()_-+=[{]};:<>|./? but due to most websites doesn not allow some of them such as .:;_  the application will replace them with other mostly allowed characters.
+This method uses the following special characters **_!@#$%^&*()_-+=[{]};:<>|./?_** but due to most websites doesn not allow some of them such as **_.:;__**  the application will automatically replace them with other mostly allowed characters.
