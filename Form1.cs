@@ -26,7 +26,7 @@ namespace PgenV2
             {
                 for (int i = 0; i < num; i++)
                 {                    
-                    string password = Membership.GeneratePassword(length, length / 3).Replace('^', '$').Replace('.','?').Replace(';','!').Replace(':','#').Replace('-','%').Replace('_','{').Replace('|','}');
+                     string password = Membership.GeneratePassword(length, length / 3).Replace('.','?').Replace(';','!').Replace(':','#').Replace('_','}');
                     progressBar1.PerformStep();
                     pwdOutput.AppendText(password + Environment.NewLine);                                       
                 }
